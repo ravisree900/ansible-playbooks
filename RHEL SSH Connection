@@ -3,7 +3,7 @@ whoami
 sudo passwd ec2-user
 give password
 sudo vi /etc/ssh/sshd_config
-sudo sshd service restart
+sudo service sshd restart
 exit
 
 connect to controller in "Gitbash"
