@@ -9,6 +9,6 @@ exit
 connect to controller in "Gitbash"
 whoami
 ssh-keygen
-ssh-copyid ec2-user@private ip of redhat server
+ssh-copy-id ec2-user@private ip of redhat server
 yes
 give password which is given above
