@@ -12,3 +12,5 @@ ssh-keygen
 ssh-copy-id ec2-user@private ip of redhat server
 yes
 give password which is given above
+open sudo vim /etc/ansible/hosts
+paste private ip of RHEL ansible_user=ec2-user
